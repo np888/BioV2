@@ -1,0 +1,186 @@
+
+*,
+*:after,
+*:before{
+	box-sizing: border-box;
+}
+
+/* Base Styles */
+body{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 100%;
+	line-height: 1.5;
+	margin: 0;
+}
+
+p {
+  margin: 0 0 1rem;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+section h2 {
+  margin: 0 0 0.75rem;
+}
+
+
+/*  Stalying the NAV */
+
+.nav-bar{
+	overflow: hidden; /*clearing the floats on title and navlist*/
+	background-color: #3cb9d5;
+	height: 60px;
+	color: white;
+	padding: 0 30px;
+}
+
+.title{
+	float: left;
+	line-height: 60px;
+	margin: 0;
+}
+
+.nav-list{
+	float: right;
+	margin: 0;
+	padding: 0;
+	
+}
+
+.nav-list li{
+	display: inline-block;
+	font-size: 12px;
+	text-transform: uppercase;
+	line-height: 60px;
+}
+
+.nav-list li a{
+	text-decoration: none;
+	color: white;
+}
+
+/*Styling the main overrall layout*/
+
+html, body{
+	height: 100%;
+}
+
+/*
+.container{
+	overflow: hidden;
+	height: 100%
+}
+*/
+.bio-banner{
+	overflow: auto;
+	width: 100%;
+	background-color: #004D67;
+	color: white;
+	height: 25%;
+}
+
+
+/* Format left side of the page*/
+.img-container{
+	float: left;
+	padding: 10px;
+	/*background-image: url(/images/container.jpg);*/
+	background-image: url(https://images.unsplash.com/photo-1431932441182-250651654c23?q=80&fm=jpg&s=dbb6cf32be2308d75f305480c96dcff8);
+	background-size: cover;
+	background-repeat: no-repeat;	
+	width: 30%;
+	text-align: center;
+}
+
+.bio-pic{
+
+	border-radius: 50%;
+	border: 3px ridge #3cb9d5;
+	background-color: white;
+	height: 300px;
+
+}
+
+.bio-content{
+	float: right;
+	padding: 25px;
+	width: 70%
+}
+
+.details-banner{
+
+	overflow: auto;
+	width: 100%;
+	height: 40%;
+	padding: 25px;
+	background-color: #BFBCBC;
+}
+
+
+.summary{
+	float: left;
+	width: 33.33%;
+}
+
+.skills{
+	float: left;
+	width: 33.33%;
+}
+
+.education{
+	float: right;
+	width: 33.33%;
+}
+
+.expirence-banner{
+	overflow: auto;
+	padding: 25px;
+	background-color: antiquewhite;
+
+}
+/*Styling the footer*/
+
+footer{
+	overflow: hidden; /*clears the float*/
+	background-color: #3cb9d5;
+	height: 60px;
+	font-size: 12px;
+	padding: 0 30px;
+}
+
+.copyright{
+
+	float: right;
+	color: white;
+	line-height: 60px;
+	margin: 0;
+}
+
+.social{
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.social li{
+	display: inline-block;
+	line-height: 60px;
+	margin-right: 15px;
+	padding: 15px;
+}
+
+.social li a {
+	text-decoration: none;
+	color: white;
+
+}
+
+.footer-icon{
+	width: 30px;
+}
